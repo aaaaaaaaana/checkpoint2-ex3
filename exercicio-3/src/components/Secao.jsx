@@ -4,8 +4,7 @@ import Rodape from './Rodape'
 
 export default function Secao(props) {
   {
-    /* Vamos criar uma secao com uma section, uma div com 2 paragrafos 
-      cada um com 3 linhas de lorem e depois dos paragrafos uma imagem. */
+
   }
   let reactAlt = 'React Logo'
 
