@@ -1,6 +1,6 @@
 import { useState } from "react";
-import styles from "./ModalInserir.module.css";
-import "./ModalInserir.scss";
+import styles from "../ModalInserir.module.css";
+import "../ModalInserir.scss"
 import { useNavigate } from "react-router-dom";
 
 export default function ModalInserir(props) {

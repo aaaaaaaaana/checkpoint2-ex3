@@ -5,6 +5,7 @@ import { RiDeleteBin2Fill as Excluir } from "react-icons/ri";
 import { useEffect, useState } from "react";
 import ModalInserir from "../components/ModalInserir/ModalInserir";
 
+
 export default function Produtos() {
   document.title = "Lista de Produtos: ";
 
