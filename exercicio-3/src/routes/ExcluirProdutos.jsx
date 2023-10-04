@@ -7,8 +7,10 @@ export default function ExcluirProdutos() {
 
   const navigate = useNavigate();
 
+  //Receber o ID do produto pelo HOOK useParams( );
   const { id } = useParams();
 
+  //Recuperar o produto na lista pelo ID.
   const produto = ListaProdutos.filter((produto) => produto.id == id)[0];
 
   const handleDelete = (event) => {
@@ -20,7 +22,7 @@ export default function ExcluirProdutos() {
 
     ListaProdutos.splice(indice, 1);
 
-    alert("Produto exclído com sucesso!");
+    alert("Produto excluído com sucesso!");
 
     navigate("/produtos");
   };
