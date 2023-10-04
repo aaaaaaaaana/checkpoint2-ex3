@@ -1,7 +1,10 @@
+import React from 'react'
+
 export default function Home() {
-    return (
-      <div>
-          <h1>Checkpoint 2</h1>
-      </div>
-    )
-  }
+  return (
+    <div>
+        <h1>MINHA CASA</h1>
+        <p>Seja BOM!</p>
+    </div>
+  )
+}

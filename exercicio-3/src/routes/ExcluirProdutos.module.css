@@ -1,3 +1,5 @@
+
+
 .card{
     display: flex;
     flex-direction: column;
@@ -40,23 +42,23 @@
         margin: 1% auto;
         outline: none;
         border: none;
-        color: #e0e1dd;
+        color: #fff;
         font-size: 1.2rem;
         font-weight: bold;
         border-radius: 5px;
     }
     
     & button:first-child {
-        background-color: #d43140;
+        background-color: #ff0000;
         &:hover{
-            background-color: #e0e1dd;
+            background-color: #880f0f;
         }
     }
 
     & button:last-child {
-        background-color: #23cf5c;
+        background-color: #148214;
          &:hover{
-            background-color: #e0e1dd
+            background-color: #0b3d0b
         }
     }
 
